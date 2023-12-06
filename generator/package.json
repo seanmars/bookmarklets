@@ -1,0 +1,13 @@
+{
+  "name": "generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build tsconfig.json && node ./esbuild.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.8",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,3 @@
+"use strict";var __awaiter=function(d,n,e,o){function l(t){return t instanceof e?t:new e(function(r){r(t)})}return new(e||(e=Promise))(function(t,r){function c(i){try{s(o.next(i))}catch(f){r(f)}}function a(i){try{s(o.throw(i))}catch(f){r(f)}}function s(i){i.done?t(i.value):l(i.value).then(c,a)}s((o=o.apply(d,n||[])).next())})};(d=>__awaiter(void 0,void 0,void 0,function*(){try{const n=a=>a.querySelector("div > div.order-title > a").innerHTML.split("\u767C\u8D77\u7684")[1].trim(),e=d.querySelectorAll("div > div.main-progress > div > div.mt-2 > div.progress-order"),[o,l]=e,t=n(o),r=n(l),c=`${t}
+${r}`;yield navigator.clipboard.writeText(c),alert(`\u5DF2\u8907\u88FD\u5230\u526A\u8CBC\u7C3F
+${c}`)}catch(n){alert(n)}}))(document);
